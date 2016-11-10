@@ -197,6 +197,13 @@ didCreatePaymentResult:(STPPaymentResult *)paymentResult
    didFinishWithStatus:(STPPaymentStatus)status
                  error:(nullable NSError *)error;
 
+/**
+ *  This is invoked by an `STPPaymentContext` when user clicked "cancel" button on STPPaymentMethodsViewController.
+ *
+ *  @param paymentContext The payment context that finished
+ */
+- (void)paymentContextDidSelectCancel:(STPPaymentContext *)paymentContext;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -255,6 +255,7 @@
     if ([viewController stp_isAtRootOfNavigationController]) {
         // if we're the root of the navigation controller, we've been presented modally.
         [viewController.presentingViewController dismissViewControllerAnimated:YES completion:^{
+            [self.delegate paymentContextDidSelectCancel:self];
             self.paymentMethodsViewController = nil;
             if (completion) {
                 completion();
