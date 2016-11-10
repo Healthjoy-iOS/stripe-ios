@@ -173,7 +173,7 @@
 }
 
 - (void)cancel:(__unused id)sender {
-    [self.delegate paymentMethodsViewControllerDidFinish:self];
+    [self.delegate paymentMethodsViewControllerDidCancel:self];
 }
 
 - (void)finishWithPaymentMethod:(id<STPPaymentMethod>)paymentMethod {
