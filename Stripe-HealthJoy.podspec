@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name                           = 'Stripe'
+  s.name                           = 'Stripe-HealthJoy'
   s.version                        = '9.1.0'
   s.summary                        = 'Stripe is a web-based API for accepting payments online.'
   s.license                        = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage                       = 'https://stripe.com/docs/mobile/ios'
   s.authors                        = { 'Jack Flintermann' => 'jack@stripe.com', 'Stripe' => 'support+github@stripe.com' }
-  s.source                         = { :git => 'https://github.com/stripe/stripe-ios.git', :tag => "v#{s.version}" }
+  s.source                         = { :git => 'https://github.com/nekromarko/stripe-ios-HealthJoy.git', :tag => "v#{s.version}" }
   s.frameworks                     = 'Foundation', 'Security', 'WebKit', 'PassKit', 'AddressBook'
   s.requires_arc                   = true
   s.platform                       = :ios
