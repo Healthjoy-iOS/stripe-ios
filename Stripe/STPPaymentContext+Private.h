@@ -6,7 +6,7 @@
 //  Copyright © 2016 Stripe, Inc. All rights reserved.
 //
 
-#import <Stripe/Stripe.h>
+#import "Stripe.h"
 #import "STPPromise.h"
 #import "STPPaymentMethodTuple.h"
 

@@ -5,7 +5,7 @@
 //  Copyright (c) 2013 Stripe. All rights reserved.
 //
 
-#import <Stripe/Stripe.h>
+#import "Stripe.h"
 #import "ViewController.h"
 
 #import "PaymentViewController.h"

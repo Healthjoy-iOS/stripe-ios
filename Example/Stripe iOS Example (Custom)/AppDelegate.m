@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "Constants.h"
-#import <Stripe/Stripe.h>
+#import "Stripe.h"
 
 @implementation AppDelegate
 

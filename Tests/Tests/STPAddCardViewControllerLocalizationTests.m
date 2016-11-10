@@ -7,7 +7,7 @@
 //
 
 #import <FBSnapshotTestCase/FBSnapshotTestCase.h>
-#import <Stripe/Stripe.h>
+#import "Stripe.h"
 #import "STPSwitchTableViewCell.h"
 #import "STPAddressViewModel.h"
 #import "STPAddressFieldTableViewCell.h"

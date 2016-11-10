@@ -7,7 +7,7 @@
 //
 
 #import <FBSnapshotTestCase/FBSnapshotTestCase.h>
-#import <Stripe/Stripe.h>
+#import "Stripe.h"
 
 #import "TestSTPBackendAPIAdapter.h"
 #import "STPLocalizationUtils+STPTestAdditions.h"
