@@ -76,6 +76,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy, null_resettable)UIFont  *emphasisFont;
 
 /**
+ *  The navigation tint color of this theme - it will be used for any navigation buttons.
+ */
+@property(nonatomic, copy, null_resettable)UIColor *navigationTintColor;
+
+/**
+ *  The navigation bar tint color of this theme - it will be used for navigation bar.
+ */
+@property(nonatomic, copy, null_resettable)UIColor *navigationBarTintColor;
+
+/**
  *  The navigation bar style to use for any view controllers presented modally
  *  by the SDK. The default value will be determined based on the brightness
  *  of the theme's `primaryBackgroundColor`.
