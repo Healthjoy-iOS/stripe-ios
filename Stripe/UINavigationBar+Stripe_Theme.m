@@ -23,7 +23,7 @@ static NSInteger const STPNavigationBarHairlineViewTag = 787473;
     self.translucent = theme.translucentNavigationBar;
     self.titleTextAttributes = @{
                                  NSFontAttributeName: theme.emphasisFont,
-                                 NSForegroundColorAttributeName: theme.primaryForegroundColor,
+                                 NSForegroundColorAttributeName: theme.navigationTintColor,
                                  };
 }
 
